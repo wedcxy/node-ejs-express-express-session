@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 50%;
+    height: 200px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.box p
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box .input
+{
+    width: 50%;
+    height: 35px;
+    font-family: "宋体";
+}
+.box .but
+{
+    margin-left: 35%;
+    width: 30%;
+    height: 20%;
+    color: white;
+    font-style: 40px;
+    font-family: "宋体";
+    background:#41b6e6;
+    border:none;
+    border-radius: 20px;
+    outline:none;
+}
+.box a
+{
+    text-decoration: none;
+    font-family: '宋体';
+    color: wheat;
+}

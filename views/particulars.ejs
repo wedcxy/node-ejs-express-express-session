@@ -1,0 +1,16 @@
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  
+  <body>
+    <%- include('head',{})%>
+    <div class="detail">
+      <div class="title"><%= list.title %></div>
+      <div class='desc'>
+        <span>作者：<%= list.username %></span>
+        <span>发布时间：<%= list.createTime %></span>
+      </div>
+      <div class="content"><%- list.content %></div>
+  </div>
+  </body>
+  
